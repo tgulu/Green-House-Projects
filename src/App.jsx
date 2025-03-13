@@ -1,13 +1,25 @@
 import "./App.css";
-import Header from "./components/header/Header.jsx";
-import { Home } from "./router.js";
-// import { BroswerRouter as Router, Routes, Route } from "react-router-dom";
+import { Home, Header, Layout } from "./router";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Header />
-      <Home />
+      <Router>
+        <Header />
+
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <Layout>
+                <Home />
+              </Layout>
+            }
+          ></Route>
+        </Routes>
+        {/* <Route path="*" element={<NotFound />} /> */}
+      </Router>
     </>
   );
 }
