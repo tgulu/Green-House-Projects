@@ -1,12 +1,10 @@
 import React from "react";
+import { Hero } from "../router";
 
 export const Home = () => {
   return (
-    <>
-      <h1 className=" text-blue-900 mx-3">
-        Home
-        {console.log("whyyy you")}
-      </h1>
-    </>
+    <div>
+      <Hero />
+    </div>
   );
 };
