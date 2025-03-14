@@ -20,3 +20,21 @@ export const navBar = [
     path: "/about",
   },
 ];
+
+export const hero1 = [
+  {
+    id: 11,
+    name: "greendoor",
+    cover: "src/components/assets/images/greendoor.jpg",
+  },
+  {
+    id: 22,
+    name: "amber",
+    cover: "src/components/assets/images/amber.jpg",
+  },
+  {
+    id: 24,
+    name: "meron",
+    cover: "src/components/assets/images/meron.jpg",
+  },
+];
