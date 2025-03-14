@@ -16,9 +16,7 @@ export const Header = () => {
           <div>
             <img src={logo} alt="logo" width="50px" height="50px" />
           </div>
-          <h2 className="text-2xl font-lg ml-4 mt-2.5 ">
-            Green House Projects
-          </h2>
+          <h2 className="text-xl font-lg ml-4 mt-2.5 ">Green House Projects</h2>
         </div>
 
         {/* navlinks  */}
@@ -26,7 +24,7 @@ export const Header = () => {
           <ul className="flex">
             {navBar.map((list, i) => (
               <li
-                className={`mx-2 mt-2.5 py-1.5 ml-5 text-lg ${activeNavLink}`}
+                className={`mx-1 mt-2.5 py-1.5 ml-5 text-sm ${activeNavLink}`}
                 key={i}
               >
                 <NavLink to={list.path}>{list.name}</NavLink>
@@ -42,9 +40,9 @@ export const Header = () => {
         <Link to={"/"} className="flex items-center gap-2">
           <div className="logo flex">
             <div>
-              <img src={logo} alt="logo" width="40px" height="40px" />
+              <img src={logo} alt="logo" width="46.5px" height="46.5px" />
             </div>
-            <h2 className="text-2xl font-lg ml-4 mt-2.5 ">
+            <h2 className="text-2xl font-lg ml-4 mt-1.5 pr-1.5 ">
               Green House Projects
             </h2>
           </div>
@@ -56,7 +54,7 @@ export const Header = () => {
               <ul className="flex flex-col">
                 {navBar.map((list, i) => (
                   <li
-                    className={`mx-2 mt-2.5 py-1.5 ml-5 text-lg ${activeNavLink}`}
+                    className={`mx-2 mt-2.5 py-1.5 ml-5 text-xs ${activeNavLink}`}
                     key={i}
                   >
                     <NavLink to={list.path}>{list.name}</NavLink>
@@ -65,7 +63,7 @@ export const Header = () => {
               </ul>
             </div>
           )}
-          <AiOutlineMenu size={20} onClick={() => setIsMenu(!isMenu)} />
+          <AiOutlineMenu size={22} onClick={() => setIsMenu(!isMenu)} />
         </div>
       </div>
     </header>
