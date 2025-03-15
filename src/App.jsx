@@ -1,5 +1,5 @@
 import "./App.css";
-import { Home, Header, Layout } from "./router";
+import { Home, Header, Layout, Events, Music } from "./router";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -12,6 +12,23 @@ function App() {
             element={
               <Layout>
                 <Home />
+                <Events />
+              </Layout>
+            }
+          ></Route>
+          <Route
+            path="/events"
+            element={
+              <Layout>
+                <Events />
+              </Layout>
+            }
+          ></Route>
+          <Route
+            path="/music"
+            element={
+              <Layout>
+                <Music />
               </Layout>
             }
           ></Route>
