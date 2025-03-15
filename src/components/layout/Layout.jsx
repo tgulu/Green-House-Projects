@@ -5,7 +5,7 @@ export const Layout = ({ children }) => {
   return (
     <div>
       <Header />
-      <main className="mt-[4%]">{children}</main>
+      <main className="mt-[5%] pt[3%]">{children}</main>
     </div>
   );
 };
