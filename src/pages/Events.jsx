@@ -1,7 +1,10 @@
 import React from "react";
-import { Hero } from "../router";
-import Posters from "../components/hero/Posters";
+import { HeroEvents } from "../router";
 
 export const Events = () => {
-  return <div></div>;
+  return (
+    <div>
+      <HeroEvents />
+    </div>
+  );
 };
