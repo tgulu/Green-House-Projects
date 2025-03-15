@@ -66,7 +66,7 @@ export const Hero = () => {
             </Slider>
           </div>
           {/* {Grid section} */}
-          <div className="w-full h-full md:w-1/2 grid grid-cols-2  sm:grid-cols-1">
+          {/* <div className="w-full h-full md:w-1/2 grid grid-cols-2  sm:grid-cols-1">
             {hero2.map((item, index) => (
               <div className="box relative" key={index}>
                 <img
@@ -81,7 +81,7 @@ export const Hero = () => {
                 <div className="overlay icon absolute top-1/2 lef-[40%] text-white"></div>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
       </section>
     </>
