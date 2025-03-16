@@ -4,22 +4,31 @@ import { hero2, heroVideo1 } from "../assets/data/data";
 export const HeroVideo = () => {
   return (
     <section
-      className="hero-video mt-10 bg-blue-950 flex justify-items-center"
+      // {left photo}
+      className="hero-video mt-10  flex justify-evenly items-center felx-wrap "
       style={{ height: "calc(100vh - var(--header-height))" }}
     >
-      <div className="w-[50%] h-[50%] flex items-start justify-center p-0">
-        {hero2.map((item, index) => (
-          <div
-            className="relative w-full h-full flex justify-center items-center"
-            key={index}
-          >
-            <img src={item.cover} className="w-full h-full object-cover" />
-            <div className="text absolute top-0 left-0 text-white p-5"></div>
-          </div>
-        ))}
+      <div className="w-[45%] h-[60%] justify-center p-0 hidden lg:flex">
+        {hero2.slice(0, 1).map(
+          (
+            item,
+            index // Display the first image on the left
+          ) => (
+            <div
+              className="relative w-full h-full flex ml-3.5  justify-center items-center"
+              key={index}
+            >
+              <img
+                src={item.cover}
+                className="w-full h-full object-contain rounded-md"
+              />
+            </div>
+          )
+        )}
       </div>
 
-      <div className="w-full h-full flex items-center justify-center p-0">
+      {/* {video}  */}
+      <div className="w-full lg:w-1/2 h-full p-2 flex items-center justify-center p-0">
         {heroVideo1.map((item, index) => (
           <div
             className="relative w-full h-full flex justify-center items-center"
@@ -27,17 +36,33 @@ export const HeroVideo = () => {
           >
             <video
               src={item.cover}
-              className="w-full h-full object-fit"
+              className="w-full h-full object-fit "
               muted
+              loop
+              autoPlay
             />
-            <div className="text absolute top-0 left-0 text-white p-5">
-              <h3 className="text-xl pl-7 font-bold hidden md:block">
-                {item.name}
-              </h3>
-              <span>{item.tag}</span>
-            </div>
           </div>
         ))}
+      </div>
+
+      {/* {right photo} */}
+      <div className="w-[45%] h-[60%] justify-center p-0 hidden lg:flex">
+        {hero2.slice(1, 2).map(
+          (
+            item,
+            index // Display the first image on the left
+          ) => (
+            <div
+              className="relative w-full h-full flex mr-3.5  justify-center items-center"
+              key={index}
+            >
+              <img
+                src={item.cover}
+                className="w-full h-full object-contain rounded-md"
+              />
+            </div>
+          )
+        )}
       </div>
     </section>
   );
