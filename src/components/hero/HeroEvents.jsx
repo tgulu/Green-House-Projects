@@ -1,5 +1,5 @@
 import React from "react";
-import { heroVideo1 } from "../assets/data/data";
+import { heroVideoEvents } from "../assets/data/data";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -42,13 +42,13 @@ export const HeroEvents = () => {
 
   return (
     <>
-      <section className="hero mt-[7vh] lg:mt-0">
+      <section className="hero mt-[7vh] lg:mt-0 ">
         <div className="w-full h-full flex items-center justify-center p-1">
-          <div className="w-10/12 mt-2 h-11/12 ">
+          <div className="w-10/12 mt-2 lg:m-0 h-11/12 ">
             <Slider {...setting}>
-              {heroVideo1.map((item, index) => (
+              {heroVideoEvents.map((item, index) => (
                 <div
-                  className=" relative lg:h-[92vh] sm:mt-7 w-full flex justify-center items-center "
+                  className=" relative lg:h-[92vh] sm:mt-7 w-full flex justify-center items-center"
                   key={index}
                 >
                   <video
