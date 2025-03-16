@@ -39,7 +39,7 @@ export const hero1 = [
   },
 ];
 
-export const heroVideo1 = [
+export const heroVideoEvents = [
   {
     id: 1,
     name: "GreenRooms",
@@ -52,26 +52,11 @@ export const heroVideo1 = [
   },
 ];
 
-export const heroVideo66 = [
+export const heroVideo1 = [
   {
     id: 1,
-    name: "GreenRoom",
-    cover: "src/components/assets/video/mezthehun.mp4",
-  },
-  {
-    id: 2,
-    name: "mezthehun",
-    cover: "src/components/assets/video/mezthehun.mp4",
-  },
-  {
-    id: 3,
-    name: "shanny",
-    cover: "src/components/assets/video/Shanny.mp4",
-  },
-  {
-    id: 2,
-    name: "Soho",
-    cover: "src/components/assets/video/soho.mp4",
+    name: "Cash",
+    cover: "src/components/assets/video/CashHeroVid.mp4",
   },
 ];
 
