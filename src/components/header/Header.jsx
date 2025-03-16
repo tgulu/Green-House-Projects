@@ -8,23 +8,20 @@ export const Header = () => {
   const activeNavLink = ({ isActive }) => (isActive ? "active" : "NavLink");
   const [isMenu, setIsMenu] = useState(false);
   return (
-    <header className="fixed top-0 left-0 z-50 w-screen  h-[9.5vh] md:shadow-lg bg-[#e3e3e3] text-[#015939;] text-2xl ">
+    <header className="fixed top-0 left-0 z-50 w-screen bg-[#e3e3e3] text-[#015939] text-2xl">
       {/* {desktop} */}
-
-      <div className="hidden md:flex justify-between px-2 p-2">
-        <div className="logo flex">
-          <div>
-            <img src={logo} alt="logo" width="50px" height="50px" />
-          </div>
-          <h2 className="text-xl font-lg ml-4 mt-2.5 ">Green House Projects</h2>
+      <div className="hidden md:flex justify-between items-center px-2 py-2 h-[4.5vh] xl:h-[7vh] md:shadow-lg transition-all duration-300">
+        <div className="logo flex items-center">
+          <img src={logo} alt="logo" width="42px" height="42px" />
+          <h2 className="text-xl font-lg ml-4">Green House Projects</h2>
         </div>
 
-        {/* navlinks  */}
+        {/* navlinks */}
         <div className="menu">
           <ul className="flex">
             {navBar.map((list, i) => (
               <li
-                className={`mx-1 mt-2.5 py-1.5 ml-5 text-sm ${activeNavLink}`}
+                className={`mx-1 py-1.5 ml-5 text-sm ${activeNavLink}`}
                 key={i}
               >
                 <NavLink to={list.path}>{list.name}</NavLink>
@@ -35,26 +32,20 @@ export const Header = () => {
       </div>
 
       {/* {mobile} */}
-      <div className="flex items-center justify-between md:hidden h-full pl-2 pr-8">
+      <div className="flex items-center justify-between md:hidden h-full px-2">
         {/* {logo} */}
         <Link to={"/"} className="flex items-center gap-2">
-          <div className="logo flex">
-            <div>
-              <img src={logo} alt="logo" width="46.5px" height="46.5px" />
-            </div>
-            <h2 className="text-2xl font-lg ml-4 mt-1.5 pr-1.5 ">
-              Green House Projects
-            </h2>
-          </div>
+          <img src={logo} alt="logo" width="46.5px" height="46.5px" />
+          <h2 className="text-2xl font-lg ml-4">Green House Projects</h2>
         </Link>
 
         <div>
           {isMenu && (
-            <div className="bg-gray-50 shadow-xl rounded-lg flex flex-col absolute top-16 left-0 w-full">
-              <ul className="flex flex-col">
+            <div className="bg-gray-50 shadow-xl rounded-lg flex flex-col h-screen absolute top-11 left-0 w-full">
+              <ul className="flex pt-1 flex-col items-center gap-y-20 h-screen">
                 {navBar.map((list, i) => (
                   <li
-                    className={`mx-2 mt-2.5 py-1.5 ml-5 text-xs ${activeNavLink}`}
+                    className={`mx-2 py-1.5 mt-5 text-3xl ${activeNavLink}`}
                     key={i}
                   >
                     <NavLink to={list.path}>{list.name}</NavLink>
