@@ -56,8 +56,10 @@ export const HeroEvents = () => {
                     className="w-full h-full object-fill"
                     controls
                   />
-                  <div className="text absolute top-0 left-0 text-white p-5">
-                    <h3 className="text-xl pl-7 font-bold">{item.name}</h3>
+                  <div className="text absolute top-0 left-0 text-white p-5 ">
+                    <h3 className="text-xl pl-7 font-bold hidden md:block">
+                      {item.name}
+                    </h3>
                     <span>{item.tag}</span>
                   </div>
                 </div>
