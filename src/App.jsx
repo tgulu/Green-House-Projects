@@ -12,7 +12,6 @@ function App() {
             element={
               <Layout>
                 <Home />
-                <Events />
               </Layout>
             }
           ></Route>
