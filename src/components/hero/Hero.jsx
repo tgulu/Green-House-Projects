@@ -1,5 +1,5 @@
 import React from "react";
-import { hero1, hero2, heroVideo1 } from "../assets/data/data";
+import { hero1, hero2, heroVideoEvents } from "../assets/data/data";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
