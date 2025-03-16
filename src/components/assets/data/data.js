@@ -6,13 +6,13 @@ export const navBar = [
   },
   {
     id: 2,
-    name: "ARTISTS",
-    path: "/artist",
+    name: "EVENTS",
+    path: "/events",
   },
   {
     id: 3,
-    name: "EVENTS",
-    path: "/events",
+    name: "MUSIC",
+    path: "/music",
   },
   {
     id: 4,
@@ -23,19 +23,55 @@ export const navBar = [
 
 export const hero1 = [
   {
-    id: 11,
+    id: 1,
     name: "greendoor",
     cover: "src/components/assets/images/greendoor.jpg",
   },
   {
-    id: 22,
+    id: 2,
     name: "amber",
     cover: "src/components/assets/images/amber.jpg",
   },
   {
-    id: 24,
+    id: 3,
     name: "meron",
     cover: "src/components/assets/images/meron.jpg",
+  },
+];
+
+export const heroVideo1 = [
+  {
+    id: 1,
+    name: "GreenRooms",
+    cover: "src/components/assets/video/GreenRoom.mp4",
+  },
+  {
+    id: 2,
+    name: "GreenRooms",
+    cover: "src/components/assets/video/GreenRoom.mp4",
+  },
+];
+
+export const heroVideo66 = [
+  {
+    id: 1,
+    name: "GreenRoom",
+    cover: "src/components/assets/video/mezthehun.mp4",
+  },
+  {
+    id: 2,
+    name: "mezthehun",
+    cover: "src/components/assets/video/mezthehun.mp4",
+  },
+  {
+    id: 3,
+    name: "shanny",
+    cover: "src/components/assets/video/Shanny.mp4",
+  },
+  {
+    id: 2,
+    name: "Soho",
+    cover: "src/components/assets/video/soho.mp4",
   },
 ];
 
@@ -47,12 +83,12 @@ export const hero2 = [
   },
   {
     id: 2,
-    name: "amber",
+    name: "tash.green1",
     cover: "src/components/assets/images/tash.green1.jpg",
   },
   {
     id: 3,
-    name: "meron",
+    name: "tash.green2",
     cover: "src/components/assets/images/b&w.jpg",
   },
 ];
