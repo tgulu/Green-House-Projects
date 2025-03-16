@@ -7,10 +7,14 @@ import { navBar } from "../assets/data/data";
 export const Header = () => {
   const activeNavLink = ({ isActive }) => (isActive ? "active" : "NavLink");
   const [isMenu, setIsMenu] = useState(false);
+  const handleClick = () => {
+    setIsMenu(!isMenu);
+  };
+
   return (
     <header className="fixed top-0 left-0 z-50 w-screen bg-[#e3e3e3] text-[#015939] text-2xl">
       {/* {desktop} */}
-      <div className="hidden md:flex justify-between items-center px-2 py-2 h-[4.5vh] xl:h-[7vh] md:shadow-lg transition-all duration-300">
+      <div className="hidden md:flex justify-between items-center px-2 py-2 h-[6vh] xl:h-[7vh] md:shadow-lg transition-all duration-300">
         <div className="logo flex items-center">
           <img src={logo} alt="logo" width="42px" height="42px" />
           <h2 className="text-xl font-lg ml-4">Green House Projects</h2>
@@ -48,13 +52,15 @@ export const Header = () => {
                     className={`mx-2 py-1.5 mt-5 text-3xl ${activeNavLink}`}
                     key={i}
                   >
-                    <NavLink to={list.path}>{list.name}</NavLink>
+                    <NavLink to={list.path} onClick={handleClick}>
+                      {list.name}
+                    </NavLink>
                   </li>
                 ))}
               </ul>
             </div>
           )}
-          <AiOutlineMenu size={22} onClick={() => setIsMenu(!isMenu)} />
+          <AiOutlineMenu size={22} onClick={handleClick} />
         </div>
       </div>
     </header>
