@@ -7,7 +7,7 @@ export const Home = () => {
   return (
     <div>
       <HeroVideo />
-      {/* <Hero /> */}
+      <Hero />
       <Posters />
     </div>
   );
