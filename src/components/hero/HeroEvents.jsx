@@ -21,7 +21,7 @@ export const HeroEvents = () => {
     return (
       <div
         onClick={onClick}
-        className="absolute top-[50%] left-0 text-black cursor-pointer"
+        className="absolute top-[35%] left-0 text-black cursor-pointer"
       >
         <MdKeyboardArrowLeft size={50} />
       </div>
@@ -33,7 +33,7 @@ export const HeroEvents = () => {
     return (
       <div
         onClick={onClick}
-        className="absolute top-[50%] right-0 z-10 text-black cursor-pointer"
+        className="absolute top-[35%] right-0 z-10 text-black cursor-pointer"
       >
         <MdKeyboardArrowRight size={50} />
       </div>
@@ -42,18 +42,18 @@ export const HeroEvents = () => {
 
   return (
     <>
-      <section className="hero">
+      <section className="hero mt-[7vh] lg:mt-0">
         <div className="w-full h-full flex items-center justify-center p-1">
-          <div className="w-10/12 h-10/12 ">
+          <div className="w-10/12 mt-2 h-11/12 ">
             <Slider {...setting}>
               {heroVideo1.map((item, index) => (
                 <div
-                  className="box relative lg:h-[92vh] sm:mt-7 w-full flex justify-center items-center "
+                  className=" relative lg:h-[92vh] sm:mt-7 w-full flex justify-center items-center "
                   key={index}
                 >
                   <video
                     src={item.cover}
-                    className="w-auto h-auto object-contain"
+                    className="w-full h-full object-fill"
                     controls
                   />
                   <div className="text absolute top-0 left-0 text-white p-5">
