@@ -1,5 +1,5 @@
 import React from "react";
-import { hero1, hero2 } from "../assets/data/data";
+import { hero1, hero2, heroVideo1 } from "../assets/data/data";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -43,8 +43,8 @@ export const Hero = () => {
   return (
     <>
       <section className="hero">
-        <div className="w-full h-auto md:h-[92vh] md:flex md:justify-between">
-          <div className="w-full h-full md:w-1/2">
+        <div className="w-full h-auto md:h-[92vh] flex md:flex justify-center items-center ">
+          <div className="w-full h-full md:w-1/2  ">
             <Slider {...setting}>
               {hero1.map((item, index) => (
                 <div
@@ -54,10 +54,10 @@ export const Hero = () => {
                   <img
                     src={item.cover}
                     alt="cover"
-                    className="w-full  h-full object-cover"
+                    className="w-full  h-full object-contain"
                   />
                   <div className="text absolute top-0 left-0 text-black p-5">
-                    <h3 className="text-xl pl-7 font-bold">{item.name}</h3>
+                    {/* <h3 className="text-xl pl-7 font-bold">{item.name}</h3> */}
                     <span>{item.tag}</span>
                   </div>
                   <div className="overlay icon absolute top-1/2 lef-[40%] text-white"></div>
