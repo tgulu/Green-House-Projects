@@ -14,7 +14,7 @@ export const Header = () => {
   return (
     <header className="fixed top-0 left-0 z-50 w-screen bg-[#e3e3e3] text-[#015939] text-2xl">
       {/* {desktop} */}
-      <div className="hidden md:flex justify-between items-center px-2 py-2 h-[6vh] xl:h-[7vh] md:shadow-lg transition-all duration-300">
+      <div className="hidden md:flex justify-between items-center px-2 py-2 h-[6vh] xl:h-[5vh] md:shadow-lg transition-all duration-300">
         <div className="logo flex items-center">
           <img src={logo} alt="logo" width="42px" height="42px" />
           <h2 className="text-xl font-lg ml-4">Green House Projects</h2>
