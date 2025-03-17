@@ -7,12 +7,12 @@ export const HeroVideo = () => {
   return (
     <section
       // {left photo}
-      className="hero-video mt-10 flex justify-center items-center flex-nowrap"
+      className="hero-video mt-10 flex justify-center items-center flex-wrap sm:flex-nowrap"
       style={{ height: "calc(100vh - var(--header-height))" }}
     >
-      <div className="w-[40%] justify-center mr-2.5 hidden lg:flex">
+      <div className="w-[40%] justify-center ml-2.5 hidden lg:flex">
         {hero2.slice(0, 1).map((item, index) => (
-          <div className="box card hero mr-3" key={index}>
+          <div className="box card hero " key={index}>
             <Card cover={item.cover} tags={item.tags} />
           </div>
         ))}
@@ -34,7 +34,7 @@ export const HeroVideo = () => {
             item,
             index // Display the first image on the left
           ) => (
-            <div className="box card hero ml-3" key={index}>
+            <div className="box card hero " key={index}>
               <Card cover={item.cover} tags={item.tags} />
             </div>
           )
