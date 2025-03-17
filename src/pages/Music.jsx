@@ -1,7 +1,10 @@
 import React from "react";
-import { Hero } from "../router";
-import Posters from "../components/hero/Posters";
+import { MusicCard } from "../components/music/MusicCard";
 
 export const Music = () => {
-  return <div></div>;
+  return (
+    <div>
+      <MusicCard />
+    </div>
+  );
 };
