@@ -70,7 +70,7 @@ export const hero2 = [
     id: 2,
     name: "green",
     cover: "src/components/assets/images/bbcintroducing.jpg",
-    tags: 'Lost and Found" by @itsglaas, produced by CashGreen BBC Introducing Sussex & Surrey',
+    tags: 'Lost and Found" by @itsglaas, produced by CashGreen',
   },
 ];
 
