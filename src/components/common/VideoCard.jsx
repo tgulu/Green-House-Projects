@@ -7,7 +7,7 @@ export const VideoCard = ({ cover }) => {
         <video
           src={cover}
           className=" md:h-[550px]  xl:h-[900px]
-          object-cover rounded-3xl"
+          object-cover rounded-3xl shadow-2xs shadow-black"
           muted
           loop
           autoPlay
