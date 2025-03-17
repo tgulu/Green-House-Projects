@@ -46,7 +46,7 @@ export const Header = () => {
         <div>
           {isMenu && (
             <div className="bg-gray-50 shadow-xl rounded-lg flex flex-col h-screen absolute top-11 left-0 w-full">
-              <ul className="flex pt-1 flex-col items-center gap-y-20 h-screen">
+              <ul className="flex pt-1 flex-col items-center gap-y-20 mt-16 h-screen">
                 {navBar.map((list, i) => (
                   <li
                     className={`mx-2 py-1.5 mt-5 text-3xl ${activeNavLink}`}
