@@ -46,28 +46,25 @@ export const HeroEvents = () => {
         className="hero mt-[7vh] xl:mt-0 bg-gradient-to-b from-white to-header "
         style={{ height: "calc(100vh - var(--header-height))" }}
       >
-        <div className="w-full h-full flex items-center justify-center p-1  ">
-          <div className="w-10/12 lg:m-0 h-11/12 ">
-            <Slider {...setting}>
-              {heroVideoEvents.map((item, index) => (
-                <div
-                  className=" relative lg:h-[92vh] w-full flex justify-center items-center"
-                  key={index}
-                >
-                  <video
-                    src={item.cover}
-                    className="w-full  object-fill"
-                    controls
-                  />
-                  <div className="text absolute top-0 left-0 text-white p-5 ">
-                    <h3 className="text-xl pl-7 font-bold hidden md:block">
-                      {item.name}
-                    </h3>
-                    <span>{item.tag}</span>
-                  </div>
+        <div className="w-full h-full flex items-center justify-center   ">
+          <div className="w-10/12 lg:m-0 h-12/12 ">
+            {heroVideoEvents.map((item, index) => (
+              <div
+                className=" relative lg:h-[92vh] w-full flex justify-center items-center"
+                key={index}
+              >
+                <video
+                  src={item.cover}
+                  className="w-full  object-fill"
+                  controls
+                />
+                <div className="text absolute top-10 left-0 text-white  ">
+                  <h3 className="text-xl pl-7 font-bold hidden md:block">
+                    {item.name}
+                  </h3>
                 </div>
-              ))}
-            </Slider>
+              </div>
+            ))}
           </div>
 
           {/* {Image Grid section} */}
