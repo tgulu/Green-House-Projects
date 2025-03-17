@@ -43,7 +43,7 @@ export const HeroEvents = () => {
   return (
     <>
       <section
-        className="hero mt-[7vh] xl:mt-0 "
+        className="hero mt-[7vh] xl:mt-0 bg-gradient-to-b from-white to-header "
         style={{ height: "calc(100vh - var(--header-height))" }}
       >
         <div className="w-full h-full flex items-center justify-center p-1  ">
