@@ -45,11 +45,11 @@ export const heroVideoEvents = [
     name: "GreenRooms",
     cover: "src/components/assets/video/GreenRoom.mp4",
   },
-  {
-    id: 2,
-    name: "GreenRooms",
-    cover: "src/components/assets/video/GreenRoom.mp4",
-  },
+  // {
+  //   id: 2,
+  //   name: "GreenRooms",
+  //   cover: "src/components/assets/video/GreenRoom.mp4",
+  // },
 ];
 
 export const heroVideo1 = [
