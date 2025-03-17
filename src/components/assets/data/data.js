@@ -59,8 +59,22 @@ export const heroVideo1 = [
     cover: "src/components/assets/video/CashHeroVid.mp4",
   },
 ];
-
 export const hero2 = [
+  {
+    id: 1,
+    name: "cash",
+    cover: "src/components/assets/images/sohohouse.jpg",
+    tags: "brighton beach house 24.01.25 gratitude is a must",
+  },
+  {
+    id: 2,
+    name: "green",
+    cover: "src/components/assets/images/bbcintroducing.jpg",
+    tags: 'Lost and Found" by @itsglaas, produced by CashGreen BBC Introducing Sussex & Surrey',
+  },
+];
+
+export const hero3 = [
   {
     id: 1,
     name: "tash",
