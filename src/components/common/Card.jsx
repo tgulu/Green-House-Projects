@@ -6,11 +6,11 @@ export const Card = ({ cover, tags }) => {
       <div className="w-full h-full flex justify-center items-center">
         <img
           src={cover}
-          className="w-full h-full object-cover drop-shadow-2xl shadow-black rounded-3xl"
+          className="w-full h-full object-cover shadow-2xl shadow-black rounded-3xl"
         />
       </div>
-      <div className="hidden md:flex absolute inset-0 items-center justify-center text-black p-1">
-        <h3 className="text-md text-gray-500 font-semibold bg-white bg-opacity-50 rounded-md p-2">
+      <div className="hidden md:flex absolute top-[400px] items-center justify-center text-black p-1">
+        <h3 className="text-md text-gray-500 font-semibold  bg-opacity-50 rounded-md p-2">
           {tags.toUpperCase()}
         </h3>
       </div>
