@@ -43,7 +43,7 @@ export const Hero = () => {
   return (
     <>
       <section
-        className="hero bg-header flex items-center"
+        className="hero bg-header  flex items-center"
         style={{ height: "calc(100vh - var(--header-height))" }}
       >
         <div className="w-full h-auto md:h-[92vh]  flex items-center justify-center">
