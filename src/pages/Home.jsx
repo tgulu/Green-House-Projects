@@ -1,5 +1,5 @@
 import React from "react";
-import { Hero } from "../router";
+import { Events, Hero } from "../router";
 import { HeroVideo } from "../router";
 import Posters from "../components/hero/Posters";
 
@@ -8,7 +8,7 @@ export const Home = () => {
     <div>
       <HeroVideo />
       <Hero />
-      <Posters />
+      <Events />
     </div>
   );
 };
