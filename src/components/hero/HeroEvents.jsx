@@ -46,7 +46,7 @@ export const HeroEvents = () => {
         className="hero mt-[7vh] xl:mt-0 "
         style={{ height: "calc(100vh - var(--header-height))" }}
       >
-        <div className="w-full h-full flex items-center justify-center p-1 bg-amber-800  ">
+        <div className="w-full h-full flex items-center justify-center p-1  ">
           <div className="w-10/12 lg:m-0 h-11/12 ">
             <Slider {...setting}>
               {heroVideoEvents.map((item, index) => (
