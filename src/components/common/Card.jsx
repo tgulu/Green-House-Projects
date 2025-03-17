@@ -9,7 +9,7 @@ export const Card = ({ cover, tags }) => {
           className="w-full h-full object-cover shadow-2xl shadow-black rounded-3xl"
         />
       </div>
-      <div className="hidden md:flex absolute top-[400px] items-center justify-center text-black p-1">
+      <div className="hidden md:flex absolute top-[420px] xl:top-[790px] items-center justify-center text-black p-1">
         <h3 className="text-md text-gray-500 font-semibold  bg-opacity-50 rounded-md p-2">
           {tags.toUpperCase()}
         </h3>
