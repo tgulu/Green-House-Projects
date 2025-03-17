@@ -64,13 +64,16 @@ export const hero2 = [
     id: 1,
     name: "cash",
     cover: "src/components/assets/images/sohohouse.jpg",
-    tags: "brighton beach house 24.01.25 gratitude is a must",
+    tags: "brighton beach house 24.01.25",
   },
   {
     id: 2,
     name: "green",
     cover: "src/components/assets/images/bbcintroducing.jpg",
-    tags: 'Lost and Found" by @itsglaas, produced by CashGreen',
+    tags: "Lost and Found by ",
+    linkText: "@itsglaas",
+    linkUrl: "https://linktr.ee/glaasmusicuk",
+    tagsSuffix: ", produced by CashGreen",
   },
 ];
 
