@@ -7,7 +7,7 @@ export const HeroVideo = () => {
   return (
     <section
       // {left photo}
-      className="hero-video mt-10 flex justify-center items-center flex-wrap sm:flex-nowrap"
+      className="hero-video bg-gradient-to-b from-header to-white mt-10 flex justify-center items-center flex-wrap sm:flex-nowrap"
       style={{ height: "calc(100vh - var(--header-height))" }}
     >
       <div className="w-[40%] justify-center ml-2.5 hidden lg:flex">
@@ -35,7 +35,13 @@ export const HeroVideo = () => {
             index // Display the first image on the left
           ) => (
             <div className="box card hero " key={index}>
-              <Card cover={item.cover} tags={item.tags} />
+              <Card
+                cover={item.cover}
+                tags={item.tags}
+                linkText={item.linkText}
+                linkUrl={item.linkUrl}
+                tagsSuffix={item.tagsSuffix}
+              />
             </div>
           )
         )}
