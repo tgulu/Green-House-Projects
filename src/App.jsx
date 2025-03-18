@@ -1,5 +1,5 @@
 import "./App.css";
-import { Home, Header, Layout, Events, Music } from "./router";
+import { Home, Header, Layout, Events, Music, About } from "./router";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
               </Layout>
             }
           ></Route>
-          <Route
+          {/* <Route
             path="/events"
             element={
               <Layout>
@@ -31,6 +31,14 @@ function App() {
               </Layout>
             }
           ></Route>
+          <Route
+            path="/about"
+            element={
+              <Layout>
+                <About />
+              </Layout>
+            }
+          ></Route> */}
         </Routes>
         {/* <Route path="*" element={<NotFound />} /> */}
       </Router>
