@@ -25,7 +25,7 @@ export const about = [
   {
     id: 1,
     name: "amber",
-    cover: "public/assets/images/amber.jpg",
+    cover: "/assets/images/amber.jpg",
   },
 ];
 
@@ -33,22 +33,22 @@ export const hero1 = [
   {
     id: 1,
     name: "greendoor",
-    cover: "public/assets/images//greendoor.jpg",
+    cover: "/assets/images//greendoor.jpg",
   },
   {
     id: 2,
     name: "tash",
-    cover: "public/assets/images/tash.jpg",
+    cover: "/assets/images/tash.jpg",
   },
   {
     id: 3,
     name: "meron",
-    cover: "public/assets/images/meron.jpg",
+    cover: "/assets/images/meron.jpg",
   },
   {
     id: 4,
     name: "jam",
-    cover: "public/assets/images/jam.jpg",
+    cover: "/assets/images/jam.jpg",
   },
 ];
 
@@ -56,7 +56,7 @@ export const heroVideoEvents = [
   {
     id: 1,
     name: "GreenRooms",
-    cover: "public/assets/video/GreenRoom.mp4",
+    cover: "/assets/video/GreenRoom.mp4",
   },
   // {
   //   id: 2,
@@ -69,20 +69,20 @@ export const heroVideo1 = [
   {
     id: 1,
     name: "Cash",
-    cover: "public/assets/video/CashHeroVid.mp4",
+    cover: "/assets/video/CashHeroVid.mp4",
   },
 ];
 export const hero2 = [
   {
     id: 1,
     name: "cash",
-    cover: "public/assets/images/sohohouse.jpg",
+    cover: "/assets/images/sohohouse.jpg",
     tags: "brighton beach house 24.01.25",
   },
   {
     id: 2,
     name: "green",
-    cover: "public/assets/images/bbcintroducing.jpg",
+    cover: "/assets/images/bbcintroducing.jpg",
     tags: "Lost and Found by ",
     linkText: "@itsglaas",
     linkUrl: "https://linktr.ee/glaasmusicuk",
@@ -94,16 +94,16 @@ export const hero3 = [
   {
     id: 1,
     name: "tash",
-    cover: "public/assets/images/tash.jpg",
+    cover: "/assets/images/tash.jpg",
   },
   {
     id: 2,
     name: "tash.green1",
-    cover: "public/assets/images/tash.green1.jpg",
+    cover: "/assets/images/tash.green1.jpg",
   },
   {
     id: 3,
     name: "tash.green2",
-    cover: "public/assets/images/b&w.jpg",
+    cover: "/assets/images/b&w.jpg",
   },
 ];
