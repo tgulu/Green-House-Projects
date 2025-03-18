@@ -3,6 +3,8 @@ export { Hero } from "./components/hero/Hero";
 export { HeroVideo } from "./components/herovideo/HeroVideo";
 export { HeroEvents } from "./components/hero/HeroEvents";
 export { Layout } from "./components/layout/Layout";
+export { Info } from "./components/about/Info";
+export { About } from "./pages/About";
 export { Header } from "./components/header/Header";
 export { Events } from "./pages/Events";
 export { Music } from "./pages/Music";
