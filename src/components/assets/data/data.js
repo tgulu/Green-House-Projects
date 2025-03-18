@@ -25,7 +25,7 @@ export const about = [
   {
     id: 1,
     name: "amber",
-    cover: "src/components/assets/images/amber.jpg",
+    cover: "public/assets/images/amber.jpg",
   },
 ];
 
@@ -33,22 +33,22 @@ export const hero1 = [
   {
     id: 1,
     name: "greendoor",
-    cover: "src/components/assets/images/greendoor.jpg",
+    cover: "public/assets/images//greendoor.jpg",
   },
   {
     id: 2,
     name: "tash",
-    cover: "src/components/assets/images/tash.jpg",
+    cover: "public/assets/images/tash.jpg",
   },
   {
     id: 3,
     name: "meron",
-    cover: "src/components/assets/images/meron.jpg",
+    cover: "public/assets/images/meron.jpg",
   },
   {
     id: 4,
     name: "jam",
-    cover: "src/components/assets/images/jam.jpg",
+    cover: "public/assets/images/jam.jpg",
   },
 ];
 
@@ -56,7 +56,7 @@ export const heroVideoEvents = [
   {
     id: 1,
     name: "GreenRooms",
-    cover: "src/components/assets/video/GreenRoom.mp4",
+    cover: "public/assets/video/GreenRoom.mp4",
   },
   // {
   //   id: 2,
@@ -69,20 +69,20 @@ export const heroVideo1 = [
   {
     id: 1,
     name: "Cash",
-    cover: "src/components/assets/video/CashHeroVid.mp4",
+    cover: "public/assets/video/CashHeroVid.mp4",
   },
 ];
 export const hero2 = [
   {
     id: 1,
     name: "cash",
-    cover: "src/components/assets/images/sohohouse.jpg",
+    cover: "public/assets/images/sohohouse.jpg",
     tags: "brighton beach house 24.01.25",
   },
   {
     id: 2,
     name: "green",
-    cover: "src/components/assets/images/bbcintroducing.jpg",
+    cover: "public/assets/images/bbcintroducing.jpg",
     tags: "Lost and Found by ",
     linkText: "@itsglaas",
     linkUrl: "https://linktr.ee/glaasmusicuk",
@@ -94,16 +94,16 @@ export const hero3 = [
   {
     id: 1,
     name: "tash",
-    cover: "src/components/assets/images/tash.jpg",
+    cover: "public/assets/images/tash.jpg",
   },
   {
     id: 2,
     name: "tash.green1",
-    cover: "src/components/assets/images/tash.green1.jpg",
+    cover: "public/assets/images/tash.green1.jpg",
   },
   {
     id: 3,
     name: "tash.green2",
-    cover: "src/components/assets/images/b&w.jpg",
+    cover: "public/assets/images/b&w.jpg",
   },
 ];
