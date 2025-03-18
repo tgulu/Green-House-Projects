@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../assets/images/logo.jpg";
+import logo from "/logo.jpg";
 import { NavLink, Link } from "react-router-dom";
 import { AiOutlineMenu } from "react-icons/ai";
 import { navBar } from "../assets/data/data";
@@ -39,7 +39,7 @@ export const Header = () => {
       <div className="flex items-center justify-between md:hidden h-full px-2">
         {/* {logo} */}
         <Link to={"/"} className="flex items-center gap-2">
-          <img src={logo} alt="logo" width="46.5px" height="46.5px" />
+          <img src="/logo.jpg" alt="logo" width="46.5px" height="46.5px" />
           <h2 className="text-2xl font-lg ml-4">Green House Projects</h2>
         </Link>
 
