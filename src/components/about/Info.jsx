@@ -4,7 +4,7 @@ import React from "react";
 export const Info = () => {
   return (
     <section
-      className="about-section  h-[900px] md:h-full flex justify-center items-center flex-wrap sm:flex-nowrap mt-14 md:mt-0"
+      className="about-section  h-[900px] md:h-full flex justify-center items-center flex-wrap sm:flex-nowrap mt-14 md:mt-20 xl:mt-0"
       style={{ height: "calc(100vh - var(--header-height))" }}
     >
       <div className="w-full  flex justify-center items-center overflow-hidden xl:mt-0  ">
@@ -21,7 +21,7 @@ export const Info = () => {
             ))}
           </div>
 
-          <div className="mt-5 md:mt-0 p-8 w-full xl:w-[35%] xl:mr-60  md:w-1/2 h-full flex flex-col justify-center ">
+          <div className="mt-5 md:mt-0 p-8 w-[full] xl:w-[35%] xl:mr-60  md:w-[60%] h-full flex flex-col justify-center ">
             <div className="text-sm lg:text-4xl xl:text-8xl font-semibold tracking-wide text-indigo-500 uppercase">
               Green House Projects
             </div>
@@ -29,7 +29,7 @@ export const Info = () => {
               href="#"
               className=" block text-lg leading-tight font-medium text-black hover:underline"
             ></a>
-            <p className=" mt-2 text-gray-500 text-sm lg:text-2xl xl:text-2xl">
+            <p className=" mt-2 text-gray-500 text-sm lg:text-xl xl:text-2xl">
               Greenhouse Projects is a platform dedicated to nurturing
               Brighton’s vibrant music scene, providing a space for R&B singers,
               rappers, DJs, and other talented young musicians to grow and
@@ -37,7 +37,7 @@ export const Info = () => {
               the Brighton scence with the rest of the world.
             </p>
 
-            <p className="mt-4 hidden lg:block text-gray-500 lg:text-2xl xl:text-2xl">
+            <p className="mt-4  hidden lg:block text-gray-500 lg:text-xl xl:text-2xl">
               Our events, including GREENHOUSE JAM, bring together artists and
               audiences in a space designed for expression, experimentation, and
               community. At the heart of Greenhouse Projects is a commitment to
