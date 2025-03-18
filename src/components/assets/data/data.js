@@ -21,6 +21,14 @@ export const navBar = [
   },
 ];
 
+export const about = [
+  {
+    id: 1,
+    name: "amber",
+    cover: "src/components/assets/images/amber.jpg",
+  },
+];
+
 export const hero1 = [
   {
     id: 1,
@@ -29,13 +37,18 @@ export const hero1 = [
   },
   {
     id: 2,
-    name: "amber",
-    cover: "src/components/assets/images/amber.jpg",
+    name: "tash",
+    cover: "src/components/assets/images/tash.jpg",
   },
   {
     id: 3,
     name: "meron",
     cover: "src/components/assets/images/meron.jpg",
+  },
+  {
+    id: 4,
+    name: "jam",
+    cover: "src/components/assets/images/jam.jpg",
   },
 ];
 
