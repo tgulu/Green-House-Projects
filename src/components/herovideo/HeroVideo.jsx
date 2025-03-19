@@ -12,14 +12,17 @@ export const HeroVideo = () => {
     >
       <div className="w-[40%] justify-center ml-2.5 hidden lg:flex">
         {hero2.slice(0, 1).map((item, index) => (
-          <div className="box card hero " key={index}>
+          <div
+            className="box card hero transition-transform duration-1000 ease-in-out"
+            key={index}
+          >
             <Card cover={item.cover} tags={item.tags} />
           </div>
         ))}
       </div>
 
       {/* {video}  */}
-      <div className="py-3 flex items-center rounded-3xl justify-center">
+      <div className="py-3 flex items-center rounded-3xl justify-center mb-2">
         {heroVideo1.map((item, index) => (
           <div key={index}>
             <VideoCard cover={item.cover} />
@@ -34,7 +37,10 @@ export const HeroVideo = () => {
             item,
             index // Display the first image on the left
           ) => (
-            <div className="box card hero " key={index}>
+            <div
+              className="box card hero transition-transform duration-1000 ease-in-out"
+              key={index}
+            >
               <Card
                 cover={item.cover}
                 tags={item.tags}
