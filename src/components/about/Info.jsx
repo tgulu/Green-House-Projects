@@ -4,7 +4,7 @@ import React from "react";
 export const Info = () => {
   return (
     <section className="about-section h-screen flex justify-center items-center flex-wrap sm:flex-nowrap mt-14 md:mt-20 xl:mt-0">
-      <div className="w-full flex justify-center items-center overflow-hidden xl:mt-0 mt-1 absolute sm:relative top-16 sm:top-0">
+      <div className="w-full flex justify-center items-center overflow-hidden xl:mt-0 mt-1 absolute sm:relative top-14 sm:top-0">
         <div className="flex flex-col md:flex-row w-full h-full">
           {/* Container for the responsive image section */}
           <div className="w-full md:w-1/2 h-full relative mx-auto flex justify-center items-center">
