@@ -42,10 +42,7 @@ export const Hero = () => {
 
   return (
     <>
-      <section
-        className="hero  relative bottom-10 flex flex-col  items-center justify-center"
-        style={{ height: "calc(100vh - var(--header-height))" }}
-      >
+      <section className="hero relative bottom-10 flex flex-col  items-center justify-center">
         {/* Title */}
         <div className="w-full text-center">
           <h2 className="text-lg sm:text-lg md:text-xl mt-10 lg:text-2xl font-bold text-indigo-600">
