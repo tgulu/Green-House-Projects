@@ -7,7 +7,7 @@ export const HeroVideo = () => {
   return (
     <section
       // {left photo}
-      className="hero-video  mt-10 flex justify-center items-center flex-wrap sm:flex-nowrap"
+      className="hero-video  mt-9 flex justify-center items-center flex-wrap sm:flex-nowrap"
       style={{ height: "calc(100vh - var(--header-height))" }}
     >
       <div className="w-[40%] justify-center ml-2.5 hidden lg:flex">
@@ -31,7 +31,7 @@ export const HeroVideo = () => {
       </div>
 
       {/* {right photo} */}
-      <div className="w-[40%] justify-center mr-2.5 hidden lg:flex">
+      <div className="w-[38%] justify-center mr-2.5 hidden lg:flex">
         {hero2.slice(1, 2).map(
           (
             item,
