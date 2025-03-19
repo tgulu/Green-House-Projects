@@ -5,10 +5,33 @@ import { HeroVideo } from "../router";
 export const Home = () => {
   return (
     <div>
-      <HeroVideo />
-      <About />
-      <Hero />
-      <Events />
+      {/* About Section */}
+      <div className="w-full bg-gradient-to-b from-white to-header">
+        <div className="mx-4 sm:mx-8 lg:mx-16">
+          <About />
+        </div>
+      </div>
+
+      {/* HeroVideo Section */}
+      <div className="w-full bg-white">
+        <div className="mx-4 sm:mx-8 lg:mx-16">
+          <HeroVideo />
+        </div>
+      </div>
+
+      {/* Hero Section */}
+      <div className="w-full bg-gradient-to-b from-white to-header">
+        <div className="mx-4 sm:mx-8 lg:mx-16">
+          <Hero />
+        </div>
+      </div>
+
+      {/* Events Section */}
+      <div className="w-full bg-gradient-to-b from-white to-header">
+        <div className="mx-4 sm:mx-8 lg:mx-16">
+          <Events />
+        </div>
+      </div>
     </div>
   );
 };
