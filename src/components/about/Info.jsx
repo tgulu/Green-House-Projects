@@ -37,7 +37,7 @@ export const Info = () => {
               connect the Brighton scene with the rest of the world.
             </p>
 
-            <p className="mt-4 text-gray-600 text-base lg:text-xl 2xl:text-3xl">
+            <p className="mt-4 text-gray-600 text-base lg:text-xl 2xl:text-3xl mb-5">
               Our events, including GREENHOUSE JAM, bring together artists and
               audiences in a space designed for expression, experimentation, and
               community. At the heart of Greenhouse Projects is a commitment to
