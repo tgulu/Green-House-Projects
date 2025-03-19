@@ -4,11 +4,8 @@ import { Header } from "../header/Header";
 
 export const Info = () => {
   return (
-    <section
-      className="about-section  h-[900px] md:h-full flex justify-center items-center flex-wrap sm:flex-nowrap mt-14 md:mt-20 xl:mt-0"
-      // style={{ height: "calc(100vh - var(--header-height))" }}
-    >
-      <div className="w-full flex justify-center items-center overflow-hidden xl:mt-0 mt-5  ">
+    <section className="about-section  h-[900px] md:h-full flex justify-center items-center flex-wrap sm:flex-nowrap mt-14 md:mt-20 xl:mt-0">
+      <div className="w-full flex justify-center items-center overflow-hidden xl:mt-0 mt-1 absolute sm:relative top-24 sm:top-0">
         <div className="flex flex-col md:flex-row w-full h-full">
           <div className="w-[80%] md:w-1/2 h-full relative mx-auto ">
             {about.map((item, index) => (
@@ -35,7 +32,7 @@ export const Info = () => {
               connect the Brighton scene with the rest of the world.
             </p>
 
-            <p className="mt-1  hidden lg:block text-gray-500 text-sm  sm:text-xs lg:text-xl xl:text-2xl">
+            <p className="mt-2  text-gray-500 text-sm  sm:text-xs lg:text-xl xl:text-2xl">
               Our events, including GREENHOUSE JAM, bring together artists and
               audiences in a space designed for expression, experimentation, and
               community. At the heart of Greenhouse Projects is a commitment to
