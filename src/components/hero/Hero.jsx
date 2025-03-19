@@ -7,7 +7,7 @@ import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 
 export const Hero = () => {
   const setting = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -43,7 +43,7 @@ export const Hero = () => {
   return (
     <>
       <section
-        className="hero bg-gradient-to-b from-header to-white relative bottom-10 flex flex-col mt-6 items-center justify-center"
+        className="hero  relative bottom-10 flex flex-col  items-center justify-center"
         style={{ height: "calc(100vh - var(--header-height))" }}
       >
         {/* Title */}
