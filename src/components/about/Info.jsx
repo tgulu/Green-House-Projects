@@ -13,7 +13,7 @@ export const Info = () => {
         <div className="flex flex-col md:flex-row w-full h-full">
           <div className="w-[80%] md:w-1/2 h-full relative mx-auto ">
             {about.map((item, index) => (
-              <div className="box relative w-full h-full  " key={index}>
+              <div className="box relative w-full h-full" key={index}>
                 <img
                   src={item.cover}
                   alt="Cover Art"
@@ -23,8 +23,8 @@ export const Info = () => {
             ))}
           </div>
 
-          <div className="mt-5  md:mt-0 p-8 w-[full] xl:w-[35%] xl:mr-60  md:w-[60%] h-full flex flex-col justify-center ">
-            <div className="text-sm sm:text-xs lg:text-xl xl:text-8xl font-semibold tracking-wide text-indigo-500 uppercase">
+          <div className="mt-5  md:mt-0 xl:p-8 p-3 w-[full] xl:w-[35%] xl:mr-60  md:w-[60%] h-full flex flex-col justify-center ">
+            <div className="text-xs lg:text-xl xl:text-3xl font-semibold tracking-wide text-indigo-500 uppercase">
               Green House Projects
             </div>
 
@@ -36,7 +36,7 @@ export const Info = () => {
               connect the Brighton scene with the rest of the world.
             </p>
 
-            <p className="mt-1  hidden lg:block text-gray-500 text-sm  sm:text-xslg:text-xl xl:text-2xl">
+            <p className="mt-1  hidden lg:block text-gray-500 text-sm  sm:text-xs lg:text-xl xl:text-2xl">
               Our events, including GREENHOUSE JAM, bring together artists and
               audiences in a space designed for expression, experimentation, and
               community. At the heart of Greenhouse Projects is a commitment to
