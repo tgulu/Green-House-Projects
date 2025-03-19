@@ -25,7 +25,7 @@ export const Info = () => {
 
           {/* Text content container with enhanced padding and larger font sizes for readability */}
           <div className="mt-2 md:mt-0 xl:p-12 p-6 w-full 2xl:w-[60%] 2xl:mr-60 mr-0 sm:w-[85%] h-full flex flex-col justify-center">
-            <div className="text-lg lg:text-2xl xl:text-4xl font-bold tracking-wide text-indigo-500 uppercase">
+            <div className="text-xl lg:text-2xl xl:text-4xl font-bold tracking-wide text-indigo-500 uppercase text-center">
               Green House Projects
             </div>
 
