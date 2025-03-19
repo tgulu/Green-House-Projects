@@ -8,7 +8,6 @@ export const Info = () => {
       className="about-section  h-[900px] md:h-full flex justify-center items-center flex-wrap sm:flex-nowrap mt-14 md:mt-20 xl:mt-0"
       // style={{ height: "calc(100vh - var(--header-height))" }}
     >
-      <Header />
       <div className="w-full flex justify-center items-center overflow-hidden xl:mt-0 mt-5  ">
         <div className="flex flex-col md:flex-row w-full h-full">
           <div className="w-[80%] md:w-1/2 h-full relative mx-auto ">
@@ -17,13 +16,13 @@ export const Info = () => {
                 <img
                   src={item.cover}
                   alt="Cover Art"
-                  className="w-[100%] h-[80%] lg:w-[70%] ml-0 md:ml-32 shadow-2xl shadow-black object-contain"
+                  className="w-[100%] h-[80%] lg:w-[70%] ml-0 sm:ml-32 sm:mt-4.5 shadow-2xl shadow-black object-contain"
                 />
               </div>
             ))}
           </div>
 
-          <div className="mt-5  md:mt-0 xl:p-8 p-3 w-[full] xl:w-[35%] xl:mr-60  md:w-[60%] h-full flex flex-col justify-center ">
+          <div className="mt-5  md:mt-0 xl:p-8 p-3 w-[full] xl:w-[35%] xl:mr-60 sm:w-[80%] h-full flex flex-col justify-center ">
             <div className="text-xs lg:text-xl xl:text-3xl font-semibold tracking-wide text-indigo-500 uppercase">
               Green House Projects
             </div>
