@@ -17,7 +17,7 @@ export const Info = () => {
                 <img
                   src={item.cover}
                   alt="Cover Art"
-                  className="w-full md:w-[90%] lg:w-[95%] xl:w-[75%] h-auto shadow-2xl shadow-black object-cover"
+                  className="w-[60%] h-auto sm:w-[70%] md:w-[90%] lg:w-[95%] xl:w-[75%] shadow-2xl shadow-black object-cover"
                 />
               </div>
             ))}
