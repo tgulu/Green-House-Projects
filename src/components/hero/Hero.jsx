@@ -48,25 +48,25 @@ export const Hero = () => {
       >
         {/* Title */}
         <div className="w-full text-center">
-          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-indigo-600">
+          <h2 className="text-lg sm:text-lg md:text-xl mt-10 lg:text-2xl font-bold text-indigo-600">
             Posters of Events
           </h2>
-        </div>
 
-        {/* Posters */}
-        <div className="w-full h-auto flex items-center justify-center">
-          <div className="w-[90%] h-[90%] md:w-[40%] md:h-[75%] lg:w-[30%] lg:h-[80%] ">
-            <Slider {...setting}>
-              {hero1.map((item, index) => (
-                <div className="box relative h-full w-full" key={index}>
-                  <img
-                    src={item.cover}
-                    alt="cover"
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-              ))}
-            </Slider>
+          {/* Posters */}
+          <div className="w-full h-auto flex items-center justify-center">
+            <div className="w-[95%] h-[90%] sm:w-[85%] sm:h-[70vh] md:w-[70%] md:h-[75%] lg:w-[40%] lg:h-[80%] ">
+              <Slider {...setting}>
+                {hero1.map((item, index) => (
+                  <div className="box relative h-full w-full" key={index}>
+                    <img
+                      src={item.cover}
+                      alt="cover"
+                      className="w-full h-full object-contain"
+                    />
+                  </div>
+                ))}
+              </Slider>
+            </div>
           </div>
         </div>
       </section>
