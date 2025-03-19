@@ -21,7 +21,7 @@ export const Card = ({ cover, tags, linkText, linkUrl, tagsSuffix }) => {
           className="w-full h-full object-cover shadow-2xl shadow-black rounded-xl"
         />
       </div>
-      <div className="hidden md:flex absolute top-[580px] md:top-[700px] 2xl:top-[880px] items-center justify-center text-black text-center  ">
+      <div className="hidden md:flex absolute top-[580px] md:top-[700px] 2xl:top-[780px] items-center justify-center text-black text-center  ">
         <h3 className="xl:text-lg text-sm text-gray-500 font-semibold bg-opacity-50   uppercase">
           {tags}
           {linkText && linkUrl && (
