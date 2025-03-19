@@ -33,8 +33,8 @@ export const Info = () => {
               Greenhouse Projects is a platform dedicated to nurturing
               Brighton’s vibrant music scene, providing a space for R&B singers,
               rappers, DJs, and other talented young musicians to grow and
-              connect. Started by Cash Green, the projects mission is to connect
-              the Brighton scence with the rest of the world.
+              connect. Started by Cash Green, the project's mission is to
+              connect the Brighton scene with the rest of the world.
             </p>
 
             <p className="mt-4  hidden lg:block text-gray-500 lg:text-xl xl:text-2xl">

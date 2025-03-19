@@ -19,49 +19,6 @@ export const Header = () => {
           <img src={logo} alt="logo" width="40px" height="40px" />
           <h2 className="text-xl font-lg ml-4">Green House Projects</h2>
         </div>
-
-        {/* navlinks */}
-        <div className="menu">
-          <ul className="flex">
-            {navBar.map((list, i) => (
-              <li
-                className={`mx-1 py-1.5 ml-5 text-sm ${activeNavLink}`}
-                key={i}
-              >
-                <NavLink to={list.path}>{list.name}</NavLink>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
-
-      {/* {mobile} */}
-      <div className="flex items-center justify-between md:hidden h-full px-2">
-        {/* {logo} */}
-        <Link to={"/"} className="flex items-center gap-2">
-          <img src="/logo.jpg" alt="logo" width="46.5px" height="46.5px" />
-          <h2 className="text-2xl font-lg ml-4">Green House Projects</h2>
-        </Link>
-
-        <div>
-          {isMenu && (
-            <div className="bg-gray-50 shadow-xl rounded-lg flex flex-col h-screen absolute top-11 left-0 w-full">
-              <ul className="flex pt-1 flex-col items-center gap-y-20 mt-16 h-screen">
-                {navBar.map((list, i) => (
-                  <li
-                    className={`mx-2 py-1.5 mt-5 text-3xl ${activeNavLink}`}
-                    key={i}
-                  >
-                    <NavLink to={list.path} onClick={handleClick}>
-                      {list.name}
-                    </NavLink>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
-          <AiOutlineMenu size={22} onClick={handleClick} />
-        </div>
       </div>
     </header>
   );
