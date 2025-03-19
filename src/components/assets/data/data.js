@@ -32,8 +32,8 @@ export const about = [
 export const hero1 = [
   {
     id: 1,
-    name: "greendoor",
-    cover: "/assets/images//greendoor.jpg",
+    name: "jam",
+    cover: "/assets/images/jam.jpg",
   },
   {
     id: 2,
@@ -47,8 +47,8 @@ export const hero1 = [
   },
   {
     id: 4,
-    name: "jam",
-    cover: "/assets/images/jam.jpg",
+    name: "greendoor",
+    cover: "/assets/images//greendoor.jpg",
   },
 ];
 
