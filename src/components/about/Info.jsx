@@ -1,13 +1,15 @@
 import { about } from "../assets/data/data";
 import React from "react";
+import { Header } from "../header/Header";
 
 export const Info = () => {
   return (
     <section
       className="about-section  h-[900px] md:h-full flex justify-center items-center flex-wrap sm:flex-nowrap mt-14 md:mt-20 xl:mt-0"
-      style={{ height: "calc(100vh - var(--header-height))" }}
+      // style={{ height: "calc(100vh - var(--header-height))" }}
     >
-      <div className="w-full  flex justify-center items-center overflow-hidden xl:mt-0  ">
+      <Header />
+      <div className="w-full flex justify-center items-center overflow-hidden xl:mt-0 mt-5  ">
         <div className="flex flex-col md:flex-row w-full h-full">
           <div className="w-[80%] md:w-1/2 h-full relative mx-auto ">
             {about.map((item, index) => (
@@ -15,14 +17,14 @@ export const Info = () => {
                 <img
                   src={item.cover}
                   alt="Cover Art"
-                  className="w-[100%] h-[80%] lg:w-[70%] ml-0 md:ml-32 lg:rounded-4xl rounded-2xl shadow-2xl shadow-black object-contain"
+                  className="w-[100%] h-[80%] lg:w-[70%] ml-0 md:ml-32   shadow-2xl shadow-black object-contain"
                 />
               </div>
             ))}
           </div>
 
           <div className="mt-5 md:mt-0 p-8 w-[full] xl:w-[35%] xl:mr-60  md:w-[60%] h-full flex flex-col justify-center ">
-            <div className="text-sm lg:text-4xl xl:text-8xl font-semibold tracking-wide text-indigo-500 uppercase">
+            <div className="text-sm lg:text-2xl xl:text-8xl font-semibold tracking-wide text-indigo-500 uppercase">
               Green House Projects
             </div>
             <a
