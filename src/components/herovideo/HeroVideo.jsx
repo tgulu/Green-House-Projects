@@ -31,7 +31,7 @@ export const HeroVideo = () => {
       </div>
 
       {/* {right photo} */}
-      <div className="w-[38%] justify-center mr-2.5 hidden lg:flex">
+      <div className="w-[38%] 2xl:w-[40%] justify-center mr-2.5 hidden lg:flex">
         {hero2.slice(1, 2).map(
           (
             item,
