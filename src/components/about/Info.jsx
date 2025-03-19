@@ -24,7 +24,7 @@ export const Info = () => {
           </div>
 
           <div className="mt-5  md:mt-0 p-8 w-[full] xl:w-[35%] xl:mr-60  md:w-[60%] h-full flex flex-col justify-center ">
-            <div className="text-sm sm:text-xs lg:text-2xl xl:text-8xl font-semibold tracking-wide text-indigo-500 uppercase">
+            <div className="text-sm sm:text-xs lg:text-xl xl:text-8xl font-semibold tracking-wide text-indigo-500 uppercase">
               Green House Projects
             </div>
 
