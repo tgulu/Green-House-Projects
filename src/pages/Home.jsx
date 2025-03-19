@@ -13,7 +13,7 @@ export const Home = () => {
       </div>
 
       {/* HeroVideo Section */}
-      <div className="w-full bg-white">
+      <div className="w-full bg-gradient-to-b from-darkergrey to-header">
         <div className="mx-4 sm:mx-8 lg:mx-16">
           <HeroVideo />
         </div>
@@ -27,7 +27,7 @@ export const Home = () => {
       </div>
 
       {/* Events Section */}
-      <div className="w-full bg-gradient-to-b from-white to-header">
+      <div className="w-full bg-gradient-to-b from-header to-white">
         <div className="mx-4 sm:mx-8 lg:mx-16">
           <Events />
         </div>
