@@ -9,9 +9,9 @@ export const Card = ({ cover, tags, linkText, linkUrl, tagsSuffix }) => {
 
   return (
     <div
-      className={`relative w-full h-full flex flex-col justify-center items-center p- transition-transform duration-2000 ${
+      className={`relative w-full h-full flex flex-col justify-center items-center p-4 transition-transform duration-2000 ${
         isVisible
-          ? "lg:translate-y-[-118px] translate-y-[-100px] opacity-100"
+          ? "lg:translate-y-[-118px] translate-y-[-90px] opacity-100"
           : "-translate-y-[-900px] opacity-0"
       }`}
     >
