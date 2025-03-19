@@ -16,7 +16,7 @@ export const HeroEvents = () => {
             Past Green Room Event
           </h2>
         </div>
-        <div className="w-full  flex items-center justify-center h-auto lg:h-full">
+        <div className="w-full flex items-center justify-center h-auto lg:h-full">
           <div className="w-10/12 lg:m-0 h-10/12 lg:h-full">
             {heroVideoEvents.map((item, index) => (
               <div
