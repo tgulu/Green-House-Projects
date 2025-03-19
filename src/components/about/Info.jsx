@@ -17,7 +17,7 @@ export const Info = () => {
                 <img
                   src={item.cover}
                   alt="Cover Art"
-                  className="w-[58%] h-auto sm:w-[70%] md:w-[90%] lg:w-[75%] xl:w-[95%] shadow-2xl shadow-black object-cover"
+                  className="w-[58%] h-auto sm:w-[70%] md:w-[90%] lg:w-[75%] xl:w-[95%] 2xl:w-[70%] shadow-2xl shadow-black object-cover"
                 />
               </div>
             ))}
@@ -29,7 +29,7 @@ export const Info = () => {
               Green House Projects
             </div>
 
-            <p className="mt-2 text-gray-600 text-base lg:text-xl 2xl:text-3xl">
+            <p className="mt-2 text-gray-600 text-base lg:text-xl xl:text-4xl">
               Greenhouse Projects is a platform dedicated to nurturing
               Brighton’s vibrant music scene, providing a space for R&B singers,
               rappers, DJs, and other talented young musicians to grow and
@@ -37,7 +37,7 @@ export const Info = () => {
               connect the Brighton scene with the rest of the world.
             </p>
 
-            <p className="mt-4 text-gray-600 text-base lg:text-xl 2xl:text-3xl">
+            <p className="mt-4 text-gray-600 text-base lg:text-xl xl:text-4xl">
               Our events, including GREENHOUSE JAM, bring together artists and
               audiences in a space designed for expression, experimentation, and
               community. At the heart of Greenhouse Projects is a commitment to
