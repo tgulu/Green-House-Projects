@@ -10,7 +10,6 @@ export const VideoCard = ({ cover }) => {
           object-cover rounded-3xl shadow-2xs shadow-black"
           muted
           loop
-          autoPlay
         />
       </div>
     </div>
