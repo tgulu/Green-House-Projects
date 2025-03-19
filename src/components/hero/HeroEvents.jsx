@@ -9,18 +9,15 @@ import { MusicCard } from "../music/MusicCard";
 export const HeroEvents = () => {
   return (
     <>
-      <section
-        className="hero  "
-        style={{ height: "calc(100vh - var(--header-height))" }}
-      >
+      <section className="hero">
         {/* Title */}
-        <div className="w-full text-center mt-6">
+        <div className="w-full text-center">
           <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-indigo-600">
             Past Green Room Events
           </h2>
         </div>
-        <div className="w-full mt-8 xl:mt-0 flex items-center justify-center h-auto lg:h-full">
-          <div className="w-10/12 lg:m-0 h-auto lg:h-11/12">
+        <div className="w-full mt-3 xl:mt-0 flex items-center justify-center h-auto lg:h-full">
+          <div className="w-10/12 lg:m-0 h-10/12 lg:h-full">
             {heroVideoEvents.map((item, index) => (
               <div
                 className=" relative lg:h-[92vh] w-full flex justify-center items-center"
