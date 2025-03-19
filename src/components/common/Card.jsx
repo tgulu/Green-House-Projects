@@ -15,21 +15,25 @@ export const Card = ({ cover, tags, linkText, linkUrl, tagsSuffix }) => {
           : "-translate-y-[-900px] opacity-0"
       }`}
     >
+      {/* Image */}
       <div className="w-full h-full flex justify-center items-center">
         <img
           src={cover}
+          alt="Card Cover"
           className="w-full h-full object-cover shadow-2xl shadow-black rounded-xl"
         />
       </div>
-      <div className="hidden md:flex absolute top-[580px]  2xl:top-[580px] items-center justify-center text-black text-center  ">
-        <h3 className="xl:text-lg text-sm text-gray-500 font-semibold bg-opacity-50   uppercase">
+
+      {/* Text Below Image */}
+      <div className="flex items-center justify-center text-black text-center mt-4 md:mt-6 lg:mt-8">
+        <h3 className="xl:text-lg text-sm text-gray-500 font-semibold uppercase">
           {tags}
           {linkText && linkUrl && (
             <a
               href={linkUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-500 underline"
+              className="text-blue-500 underline ml-1"
             >
               {linkText}
             </a>
