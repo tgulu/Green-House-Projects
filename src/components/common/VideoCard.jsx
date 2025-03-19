@@ -6,7 +6,7 @@ export const VideoCard = ({ cover }) => {
       <div className="relative  flex justify-center items-center ">
         <video
           src={cover}
-          className=" h-[450px] sm:h-[500px]  xl:h-[700px]
+          className=" h-[500px] xl:h-[700px] 2xl:h-[850px] 
           object-cover rounded-3xl shadow-2xs shadow-black"
           muted
           loop
