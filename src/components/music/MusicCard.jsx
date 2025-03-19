@@ -36,7 +36,7 @@ const SoundCloudWidget = ({ playlistUrl }) => {
 
   return (
     <section
-      className="soundcloud flex flex-col justify-center items-center mt-[7vh] bg-gradient-to-b from-header to-white"
+      className="soundcloud flex flex-col justify-center items-center mt-[7vh]"
       style={{ height: "calc(100vh - var(--header-height))" }}
     >
       <h2 className="text-center text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-indigo-600 mb-6">
