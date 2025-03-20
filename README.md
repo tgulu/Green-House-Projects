@@ -4,6 +4,11 @@
 
 Greenhouse Projects is a platform dedicated to nurturing Brighton’s vibrant music scene, providing a space for R&B singers, rappers, DJs, and other talented young musicians to grow and connect. Started by Cash Green, the project's mission is to connect the Brighton scene with the rest of the world.
 
+## Website
+
+https://greenhouseprojects.space/
+![image](https://github.com/user-attachments/assets/fbeec0a9-2992-413e-bede-2af384e23e8c)
+
 ## Technologies Used
 
 - ReactJS
