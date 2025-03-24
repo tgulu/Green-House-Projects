@@ -37,8 +37,8 @@ export const hero1 = [
   },
   {
     id: 2,
-    name: "tash",
-    cover: "/assets/images/tash.jpg",
+    name: "deadwax",
+    cover: "/assets/images/deadwax.jpg",
   },
   {
     id: 3,
@@ -49,6 +49,11 @@ export const hero1 = [
     id: 4,
     name: "greendoor",
     cover: "/assets/images//greendoor.jpg",
+  },
+  {
+    id: 5,
+    name: "tash",
+    cover: "/assets/images/tash.jpg",
   },
 ];
 
