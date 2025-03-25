@@ -1,5 +1,5 @@
 import React from "react";
-import { Events, Hero, Music, About } from "../router";
+import { Events, Hero, Music, About, Footer } from "../router";
 import { HeroVideo } from "../router";
 
 export const Home = () => {
@@ -30,6 +30,12 @@ export const Home = () => {
       <div className="w-full bg-gradient-to-b from-white to-header">
         <div className="mx-4 sm:mx-8 lg:mx-16">
           <Events />
+        </div>
+      </div>
+      {/* Footer Section */}
+      <div className="w-full bg-header">
+        <div className="mx-4 sm:mx-8 lg:mx-16">
+          <Footer />
         </div>
       </div>
     </div>
