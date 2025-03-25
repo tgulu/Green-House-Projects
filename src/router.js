@@ -8,3 +8,4 @@ export { About } from "./pages/About";
 export { Header } from "./components/header/Header";
 export { Events } from "./pages/Events";
 export { Music } from "./pages/Music";
+export { Footer } from "./components/footer/Footer";
