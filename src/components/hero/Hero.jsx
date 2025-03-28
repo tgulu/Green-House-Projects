@@ -21,7 +21,7 @@ export const Hero = () => {
     return (
       <div
         onClick={onClick}
-        className="absolute md:top-[50%] top-[60%] md:left-[100%] left-[90%] z-10 text-black cursor-pointer"
+        className="absolute md:top-[50%] top-[60%] md:left-[100%] left-[90%] z-10 text-indigo-600 hover:text-white cursor-pointer"
       >
         <MdKeyboardArrowRight size={52} />
       </div>
@@ -33,7 +33,7 @@ export const Hero = () => {
     return (
       <div
         onClick={onClick}
-        className="absolute md:top-[50%] top-[60%] md:right-[100%] right-[90%] z-10 text-black cursor-pointer"
+        className="absolute md:top-[50%] top-[60%] md:right-[100%] right-[90%] z-10 text-indigo-600 hover:text-white cursor-pointer"
       >
         <MdKeyboardArrowLeft size={52} />
       </div>
