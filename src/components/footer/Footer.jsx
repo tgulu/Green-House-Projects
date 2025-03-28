@@ -32,8 +32,18 @@ export const Footer = () => {
             </p>
           </div>
           <div>
-            <p className="mt-1">© Green House Projects 2024.</p>
-            <p className="mt-1">Design & Build by Gulu </p>
+            <p className="mt-1">© Green House Projects 2025.</p>
+            <p className="mt-1">
+              Design & Build by{" "}
+              <a
+                href="https://websiteby.thabogulu.com/"
+                className="text-black hover:text-indigo-600 inline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Gulu
+              </a>
+            </p>
           </div>
           {/* <div className="mt-1">
             <a href="#" className="hover:underline">
