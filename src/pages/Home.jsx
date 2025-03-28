@@ -1,5 +1,5 @@
 import React from "react";
-import { Events, Hero, Music, About, Footer } from "../router";
+import { Events, Posters, Music, About, Footer } from "../router";
 import { HeroVideo } from "../router";
 
 export const Home = () => {
@@ -19,10 +19,10 @@ export const Home = () => {
         </div>
       </div>
 
-      {/* Hero Section */}
+      {/* Poster Section */}
       <div className="w-full bg-gradient-to-b from-white to-header">
         <div className="mx-4 sm:mx-8 lg:mx-16">
-          <Hero />
+          <Posters />
         </div>
       </div>
 
