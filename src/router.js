@@ -1,5 +1,5 @@
 export { Home } from "./pages/Home";
-export { Hero } from "./components/hero/Hero";
+export { Posters } from "./components/hero/Posters";
 export { HeroVideo } from "./components/herovideo/HeroVideo";
 export { PastEvents } from "./components/hero/PastEvents";
 export { Layout } from "./components/layout/Layout";
