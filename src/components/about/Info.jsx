@@ -26,15 +26,15 @@ export const Info = () => {
           {/* Text content container with enhanced padding and larger font sizes for readability */}
           <div className="mt-2 md:mt-0 xl:p-12 p-6 w-full 2xl:w-[60%] 2xl:mr-60 mr-0 sm:w-[85%] h-full flex flex-col justify-center">
             <div className="text-xl lg:text-2xl xl:text-4xl font-bold tracking-wide text-indigo-500 uppercase text-center">
-              Green House Project
+              The Green House Project
             </div>
 
             <p className="mt-2 text-gray-600 text-sm lg:text-xl 2xl:text-3xl">
-              Greenhouse Project is a platform dedicated to nurturing Brighton’s
-              vibrant music scene, providing a space for R&B singers, rappers,
-              DJs, and other talented young musicians to grow and connect.
-              Started by Cash Green, the project's mission is to connect the
-              Brighton scene with the rest of the world.
+              The Greenhouse Project is a platform dedicated to nurturing
+              Brighton’s vibrant music scene, providing a space for R&B singers,
+              rappers, DJs, and other talented young musicians to grow and
+              connect. Started by Cash Green, the project's mission is to
+              connect the Brighton scene with the rest of the world.
             </p>
 
             <p className="mt-4 text-gray-600 text-sm lg:text-xl 2xl:text-3xl mb-5">
@@ -44,8 +44,8 @@ export const Info = () => {
               supporting grassroots artistry. Through curated live sessions,
               collaborations, and networking opportunities, we aim to uplift
               Brighton’s next generation of music innovators. Whether you’re
-              performing, producing, or just here to vibe, Greenhouse Project is
-              where new sounds take root and flourish.
+              performing, producing, or just here to vibe, The Greenhouse
+              Project is where new sounds take root and flourish.
             </p>
           </div>
         </div>

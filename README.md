@@ -26,7 +26,7 @@ https://greenhouseprojects.space/
 ### Past Events Section
 
 - List of upcoming and past events.
-- Video showcasing a previous Green Room Event
+- Video showcasing a previous GreenRoom Event
 
 ### Music Discovery Section
 
@@ -35,7 +35,6 @@ https://greenhouseprojects.space/
 
 ### Contact & Community
 
-- Information on how artists can collaborate with Greenhouse Project.
 - Social Media and Contact integration.
 
 ## Image of Website

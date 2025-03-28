@@ -13,7 +13,7 @@ export const HeroEvents = () => {
         {/* Title */}
         <div className="w-full text-center">
           <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-indigo-600">
-            Past Green Room Event
+            Past GreenRoom Event's
           </h2>
         </div>
         <div className="w-full flex items-center justify-center h-auto lg:h-full">
