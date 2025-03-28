@@ -1,7 +1,7 @@
 export { Home } from "./pages/Home";
 export { Hero } from "./components/hero/Hero";
 export { HeroVideo } from "./components/herovideo/HeroVideo";
-export { HeroEvents } from "./components/hero/HeroEvents";
+export { PastEvents } from "./components/hero/PastEvents";
 export { Layout } from "./components/layout/Layout";
 export { Info } from "./components/about/Info";
 export { About } from "./pages/About";
