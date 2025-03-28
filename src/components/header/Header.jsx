@@ -17,7 +17,7 @@ export const Header = () => {
       <div className="hidden md:flex justify-between items-center px-2 py-2 h-[6.2vh] xl:h-[5.2vh] md:shadow-lg">
         <div className="logo flex items-center ">
           <img src={logo} alt="logo" width="40px" height="40px" />
-          <h2 className="text-xl font-lg ml-4">Green House Projects</h2>
+          <h2 className="text-xl font-lg ml-4">Green House Project</h2>
         </div>
 
         {/* navlinks */}
@@ -40,7 +40,7 @@ export const Header = () => {
         {/* {logo} */}
         <Link to={"/"} className="flex items-center gap-2">
           <img src="/logo.jpg" alt="logo" width="46.5px" height="46.5px" />
-          <h2 className="text-2xl font-lg ml-8">Green House Projects</h2>
+          <h2 className="text-2xl font-lg ml-8">Green House Project</h2>
         </Link>
 
         <div>

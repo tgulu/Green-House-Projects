@@ -26,13 +26,13 @@ export const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="ml-0.5">Green House Projects </span>
+                <span className="ml-0.5">Green House Project </span>
                 <FaInstagram className="mx-1" size={24} />
               </a>
             </p>
           </div>
           <div>
-            <p className="mt-1">© Green House Projects 2025.</p>
+            <p className="mt-1">© Green House Project 2025.</p>
             <p className="mt-1">
               Design & Build by{" "}
               <a
