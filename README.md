@@ -1,8 +1,8 @@
-# Greenhouse Project
+# The Greenhouse Project
 
 ## Description
 
-Greenhouse Project is a platform dedicated to nurturing Brighton’s vibrant music scene, providing a space for R&B singers, rappers, DJs, and other talented young musicians to grow and connect. Started by Cash Green, the project's mission is to connect the Brighton scene with the rest of the world.
+The Greenhouse Project is a platform dedicated to nurturing Brighton’s vibrant music scene, providing a space for R&B singers, rappers, DJs, and other talented young musicians to grow and connect. Started by Cash Green, the project's mission is to connect the Brighton scene with the rest of the world.
 
 ## Website
 
@@ -18,17 +18,17 @@ https://greenhouseprojects.space/
 
 ## Features
 
-### Home Page
+### Home Section
 
-- Introduction to Greenhouse Project, featuring its mission and an overview of the platform.
+- Introduction to The Greenhouse Project, featuring its mission and an overview of the platform.
 - Showcase of featured artists and events.
 
-### Events
+### Past Events Section
 
 - List of upcoming and past events.
-- Details on how to participate or attend Greenhouse Jam sessions and other gatherings.
+- Video showcasing a previous Green Room Event
 
-### Music Discovery
+### Music Discovery Section
 
 - Integration with the SoundCloud API to showcase curated playlists and featured tracks from Brighton-based artists.
 - Play music directly from the platform.
@@ -36,8 +36,7 @@ https://greenhouseprojects.space/
 ### Contact & Community
 
 - Information on how artists can collaborate with Greenhouse Project.
-- Contact form for inquiries.
-- Social media integration.
+- Social Media and Contact integration.
 
 ## Image of Website
 
