@@ -1,6 +1,6 @@
 import React from "react";
 import { hero2, heroVideo1 } from "../assets/data/data";
-import { Card } from "../common/Card.jsx";
+import { ImageCard } from "../common/ImageCard.jsx";
 import { VideoCard } from "../common/VideoCard.jsx";
 
 export const HeroVideo = () => {
@@ -16,7 +16,7 @@ export const HeroVideo = () => {
             className="box card hero transition-transform duration-1000 ease-in-out"
             key={index}
           >
-            <Card cover={item.cover} tags={item.tags} />
+            <ImageCard cover={item.cover} tags={item.tags} />
           </div>
         ))}
       </div>
@@ -41,7 +41,7 @@ export const HeroVideo = () => {
               className="box card hero transition-transform duration-1000 ease-in-out"
               key={index}
             >
-              <Card
+              <ImageCard
                 cover={item.cover}
                 tags={item.tags}
                 linkText={item.linkText}
