@@ -1,10 +1,10 @@
 import React from "react";
-import { PastEvents } from "../router";
+import { PastEventsSection } from "../router";
 
 export const Events = () => {
   return (
     <div>
-      <PastEvents />
+      <PastEventsSection />
     </div>
   );
 };

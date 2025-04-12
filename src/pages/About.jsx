@@ -1,10 +1,10 @@
 import React from "react";
-import { Info } from "../router";
+import { Hero } from "../router";
 
 export const About = () => {
   return (
     <div>
-      <Info />
+      <Hero />
     </div>
   );
 };

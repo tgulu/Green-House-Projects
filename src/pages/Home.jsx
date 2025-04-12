@@ -1,6 +1,6 @@
 import React from "react";
-import { Events, Posters, Music, About, Footer } from "../router";
-import { HeroVideo } from "../router";
+import { Events, PostersSection, Music, About, Footer } from "../router";
+import { InvitationSection } from "../router";
 
 export const Home = () => {
   return (
@@ -12,17 +12,17 @@ export const Home = () => {
         </div>
       </div>
 
-      {/* HeroVideo Section */}
+      {/* Invitation Section */}
       <div className="w-full bg-gradient-to-b from-darkergrey to-header">
         <div className="mx-4 sm:mx-8 lg:mx-16">
-          <HeroVideo />
+          <InvitationSection />
         </div>
       </div>
 
       {/* Poster Section */}
       <div className="w-full bg-gradient-to-b from-white to-header">
         <div className="mx-4 sm:mx-8 lg:mx-16">
-          <Posters />
+          <PostersSection />
         </div>
       </div>
 
