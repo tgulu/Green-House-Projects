@@ -1,6 +1,6 @@
 export { Home } from "./pages/Home";
 export { PostersSection } from "./components/events/PostersSection";
-export { InvitationSection } from "./components/herovideo/InvitationSection";
+export { InvitationSection } from "./components/introduction/InvitationSection";
 export { PastEventsSection } from "./components/events/PastEventsSection";
 export { Layout } from "./components/layout/Layout";
 export { Hero } from "./components/about/Hero";
