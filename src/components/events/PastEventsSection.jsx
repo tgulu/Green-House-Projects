@@ -1,9 +1,5 @@
 import React from "react";
-import { hero1, heroVideoEvents } from "../assets/data/data";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
-import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
+import { heroVideoEvents } from "../assets/data/data";
 import { MusicCard } from "../music/MusicCard";
 
 export const PastEventsSection = () => {
