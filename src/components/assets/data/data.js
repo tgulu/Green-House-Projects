@@ -29,7 +29,7 @@ export const about = [
   },
 ];
 
-export const hero1 = [
+export const posters = [
   {
     id: 1,
     name: "jam",
@@ -57,7 +57,7 @@ export const hero1 = [
   },
 ];
 
-export const heroVideoEvents = [
+export const videoEvent = [
   {
     id: 1,
     name: "GreenRooms",
@@ -70,14 +70,14 @@ export const heroVideoEvents = [
   // },
 ];
 
-export const heroVideo1 = [
+export const tikTokVideo = [
   {
     id: 1,
     name: "Cash",
     cover: "/assets/video/CashHeroVid.mp4",
   },
 ];
-export const hero2 = [
+export const artistImg = [
   {
     id: 1,
     name: "cash",

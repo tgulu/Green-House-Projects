@@ -1,5 +1,5 @@
 import React from "react";
-import { heroVideoEvents } from "../assets/data/data";
+import { videoEvent } from "../assets/data/data";
 import { MusicCard } from "../music/MusicCard";
 
 export const PastEventsSection = () => {
@@ -14,7 +14,7 @@ export const PastEventsSection = () => {
         </div>
         <div className="w-full flex items-center justify-center h-auto lg:h-full">
           <div className="w-10/12 lg:m-0 h-10/12 lg:h-full">
-            {heroVideoEvents.map((item, index) => (
+            {videoEvent.map((item, index) => (
               <div
                 className=" relative lg:h-[92vh] w-full flex justify-center items-center"
                 key={index}

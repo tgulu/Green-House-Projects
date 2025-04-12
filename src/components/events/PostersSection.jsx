@@ -1,5 +1,5 @@
 import React from "react";
-import { hero1 } from "../assets/data/data";
+import { posters } from "../assets/data/data";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -53,7 +53,7 @@ export const PostersSection = () => {
           <div className="w-full h-auto flex items-center justify-center">
             <div className="w-[95%] h-[90%] sm:w-[85%] sm:h-[70vh] md:w-[70%] md:h-[75%] lg:w-[40%] lg:h-[80%] ">
               <Slider {...setting}>
-                {hero1.map((item, index) => (
+                {posters.map((item, index) => (
                   <div className="box relative h-full w-full" key={index}>
                     <img
                       src={item.cover}

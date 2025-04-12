@@ -1,5 +1,5 @@
 import React from "react";
-import { hero2, heroVideo1 } from "../assets/data/data.js";
+import { artistImg, tikTokVideo } from "../assets/data/data.js";
 import { ImageCard } from "../common/ImageCard.jsx";
 import { VideoCard } from "../common/VideoCard.jsx";
 
@@ -11,7 +11,7 @@ export const InvitationSection = () => {
       style={{ height: "calc(100vh - var(--header-height))" }}
     >
       <div className="w-[40%] justify-center ml-2.5 hidden lg:flex">
-        {hero2.slice(0, 1).map((item, index) => (
+        {artistImg.slice(0, 1).map((item, index) => (
           <div
             className="box card hero transition-transform duration-1000 ease-in-out"
             key={index}
@@ -23,7 +23,7 @@ export const InvitationSection = () => {
 
       {/* {video}  */}
       <div className="py-3 flex items-center rounded-3xl justify-center mb-2">
-        {heroVideo1.map((item, index) => (
+        {tikTokVideo.map((item, index) => (
           <div key={index}>
             <VideoCard cover={item.cover} />
           </div>
@@ -32,7 +32,7 @@ export const InvitationSection = () => {
 
       {/* {right photo} */}
       <div className="w-[38%] 2xl:w-[40%] justify-center mr-2.5 hidden lg:flex">
-        {hero2.slice(1, 2).map((item, index) => (
+        {artistImg.slice(1, 2).map((item, index) => (
           <div
             className="box card hero transition-transform duration-1000 ease-in-out"
             key={index}
