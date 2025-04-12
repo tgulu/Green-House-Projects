@@ -1,9 +1,9 @@
 export { Home } from "./pages/Home";
-export { Posters } from "./components/hero/Posters";
-export { HeroVideo } from "./components/herovideo/HeroVideo";
-export { PastEvents } from "./components/hero/PastEvents";
+export { PostersSection } from "./components/events/PostersSection";
+export { InvitationSection } from "./components/herovideo/InvitationSection";
+export { PastEventsSection } from "./components/events/PastEventsSection";
 export { Layout } from "./components/layout/Layout";
-export { Info } from "./components/about/Info";
+export { Hero } from "./components/about/Hero";
 export { About } from "./pages/About";
 export { Header } from "./components/header/Header";
 export { Events } from "./pages/Events";
