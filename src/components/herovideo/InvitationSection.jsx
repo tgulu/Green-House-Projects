@@ -1,9 +1,9 @@
 import React from "react";
-import { hero2, heroVideo1 } from "../assets/data/data";
+import { hero2, heroVideo1 } from "../assets/data/data.js";
 import { ImageCard } from "../common/ImageCard.jsx";
 import { VideoCard } from "../common/VideoCard.jsx";
 
-export const HeroVideo = () => {
+export const InvitationSection = () => {
   return (
     <section
       // {left photo}
@@ -32,25 +32,21 @@ export const HeroVideo = () => {
 
       {/* {right photo} */}
       <div className="w-[38%] 2xl:w-[40%] justify-center mr-2.5 hidden lg:flex">
-        {hero2.slice(1, 2).map(
-          (
-            item,
-            index // Display the first image on the left
-          ) => (
-            <div
-              className="box card hero transition-transform duration-1000 ease-in-out"
-              key={index}
-            >
-              <ImageCard
-                cover={item.cover}
-                tags={item.tags}
-                linkText={item.linkText}
-                linkUrl={item.linkUrl}
-                tagsSuffix={item.tagsSuffix}
-              />
-            </div>
-          )
-        )}
+        {hero2.slice(1, 2).map((item, index) => (
+          <div
+            className="box card hero transition-transform duration-1000 ease-in-out"
+            key={index}
+          >
+            {/* add link to users instagram */}
+            <ImageCard
+              cover={item.cover}
+              tags={item.tags}
+              linkText={item.linkText}
+              linkUrl={item.linkUrl}
+              tagsSuffix={item.tagsSuffix}
+            />
+          </div>
+        ))}
       </div>
     </section>
   );
