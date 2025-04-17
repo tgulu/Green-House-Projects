@@ -37,7 +37,7 @@ const SoundCloudWidget = ({ playlistUrl }) => {
   return (
     <section className="soundcloud flex flex-col justify-center items-center mt-[7vh]">
       <h2 className="text-center text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-indigo-600 mb-6">
-        Artists Who Have Featured in a The Green House Project Session
+        Artists Who Have Featured in a Green House Project Session
       </h2>
       <div className="w-full lg:w-3/4 mx-auto">
         <iframe
